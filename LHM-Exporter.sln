@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exporter", "Exporter\Export
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPPdll", "CPPdll\CPPdll.vcxproj", "{336871C2-00FE-4746-A1C6-E6E19CEC2A94}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppTest", "CppTest\CppTest.vcxproj", "{5313A7A0-F0C4-4D4B-B4EA-5F1895B1857E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FetchLHMReport", "FetchLHMReport\FetchLHMReport.vcxproj", "{5313A7A0-F0C4-4D4B-B4EA-5F1895B1857E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{336871C2-00FE-4746-A1C6-E6E19CEC2A94} = {336871C2-00FE-4746-A1C6-E6E19CEC2A94}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FetchLHMValues", "FetchLHMValues\FetchLHMValues.vcxproj", "{5313A7A0-F0C4-4D4B-B4EA-5F1895B1857E}"
 	ProjectSection(ProjectDependencies) = postProject
 		{336871C2-00FE-4746-A1C6-E6E19CEC2A94} = {336871C2-00FE-4746-A1C6-E6E19CEC2A94}
 	EndProjectSection

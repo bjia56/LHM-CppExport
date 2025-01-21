@@ -10,6 +10,5 @@ _declspec(dllexport) std::string FetchLHMReport();
 
 int main()
 {
-    std::cout << FetchLHMReport();
     std::cout << FetchLHMValues();
 }
