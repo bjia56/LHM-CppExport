@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{5313a7a0-f0c4-4d4b-b4ea-5f1895b1857e}</ProjectGuid>
-    <RootNamespace>CppTest</RootNamespace>
+    <RootNamespace>FetchLHMValues</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
