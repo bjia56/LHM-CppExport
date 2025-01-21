@@ -12,6 +12,10 @@ jobs:
 
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v2
+
+      - name: Nuget
+        run: |
+          nuget restore
         
       - name: Build
         run: |
