@@ -51,6 +51,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="System.Memory" Version="4.6.3" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exporter.cs" />
