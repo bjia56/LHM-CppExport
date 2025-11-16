@@ -35,7 +35,7 @@
       <HintPath>..\packages\HidSharp.2.1.0\lib\net35\HidSharp.dll</HintPath>
     </Reference>
     <Reference Include="LibreHardwareMonitorLib, Version=0.9.4.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\LibreHardwareMonitorLib.0.9.4\lib\net472\LibreHardwareMonitorLib.dll</HintPath>
+      <HintPath>..\packages\LibreHardwareMonitorLib.0.9.5-pre543\runtimes\win-x64\lib\net472\LibreHardwareMonitorLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
