@@ -21,6 +21,11 @@ jobs:
         run: |
           msbuild /p:Configuration=Release
 
+      - name: Check
+        run: |
+          ./x64/Release/FetchLHMValues.exe
+          ./x64/Release/FetchLHMReport.exe
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
